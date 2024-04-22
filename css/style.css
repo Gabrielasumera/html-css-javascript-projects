@@ -1,0 +1,18 @@
+p{
+    color:white; 
+    background:pink;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.box{
+    width:100px;
+    height: 100px;
+    background: rgb(147, 86, 160);
+    margin:10px; 
+    padding: 10px;
+    border: 2px solid rgb(212, 147, 97);
+    float: left;
+    position: relative;
+    
+}
