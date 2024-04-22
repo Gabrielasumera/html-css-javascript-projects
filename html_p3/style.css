@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    text-align: center;
+    background-image: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    padding: 50px 20px;
+
+
+}
+
+header h1{
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+header h6{
+    font-size: 15px;
+}
+
+.button{
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid lightpink;
+    border-radius: 12px;
+    color: lightpink;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.button1:hover {
+    background-color: #955a88;
+    color: white;
+  }
+
+section{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.feature{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(173, 173, 173);
+    transition-duration: 1s;
+
+}
+
+.feature:hover{
+    height: 270px;
+    width: 270px;
+    box-shadow: 4px 4px 4px 4px rgb(173, 173, 173);
+}
+
+footer{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    height: 80px;
+}
