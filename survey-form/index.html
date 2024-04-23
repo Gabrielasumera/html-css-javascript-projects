@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Feedback Survey Form</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age"><br><br>
+        </form>
+        <form>
+            <label for="ftype">Type of feedback:</label><br><br>
+            <select id="ftype" id="ftype"><br>
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                <option value="Suggestion">Suggestion</option>
+            </select>
+        </form>
+        <form id="f1">
+            <p>Services Used:</p>
+            <input type="checkbox" id="service1" name="service1" value="service 1">
+            <label for="vehicle1">Service 1</label><br>
+            <input type="checkbox" id="service2" name="service2" value="service 2">
+            <label for="vehicle2"> Service 2</label><br>
+            <input type="checkbox" id="service3" name="service3" value="service 3">
+            <label for="vehicle3"> Service 3</label><br><br>
+        </form>
+        <form>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea name="comments" id="comments" rows="4"></textarea>
+        </form>
+        <input type="submit" id="submit-button" value="Submit Feedback">
+        
+    </main>
+</body>
+</html>

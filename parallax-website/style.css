@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+s2{
+    text-align: center;
+    background-color: lightgray;
+    padding: 20px;
+}
+#s1, #s3{
+    background-image: url('https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg'); 
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+div{
+    text-align: center;
+
+}
+footer{
+    height: 40px;
+    text-align: center;
+    background-color:blueviolet;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    padding: 5px;
+}
